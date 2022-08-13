@@ -21,7 +21,7 @@ class List extends React.Component {
 
     getCampaignData = () => {
         console.log('getData')
-        axios.get(`http://localhost:5000`)
+        axios.get(`https://still-woodland-42739.herokuapp.com`)
         .then(res => {
             const data = res.data;
             console.log(data)
@@ -100,7 +100,7 @@ class List extends React.Component {
 
     deleteCampaign = (id) =>{
         console.log(id)
-        axios.post(`http://localhost:5000/deleteCampaign/`+id)
+        axios.post(`https://still-woodland-42739.herokuapp.com/deleteCampaign/`+id)
         .then(res => {
             console.log(res.data)
             if(res.data != undefined){
@@ -134,7 +134,7 @@ class List extends React.Component {
      editThisItem = (id,onOff)=>{
         let value = onOff? false:true;
         console.log(value)
-        axios.post(`http://localhost:5000/editCampaign/`+id+`/`+value)
+        axios.post(`https://still-woodland-42739.herokuapp.com/editCampaign/`+id+`/`+value)
         .then(res => {
             this.hideModal()
             if(res.data != undefined){

@@ -48,7 +48,7 @@ class ChooseCampaign extends React.Component {
                     'end_date': this.state.End_date,
                     'loc':this.state.Loc};
                     console.log(data)
-        axios.post(`http://localhost:5000/addCampaign`,data)
+        axios.post(`https://still-woodland-42739.herokuapp.com/addCampaign`,data)
         .then(res => {
             console.log(res.data)
             if(res.data != undefined){
@@ -67,7 +67,7 @@ class ChooseCampaign extends React.Component {
 
     getCampaignsList = () => {
         console.log('getData')
-        axios.get(`http://localhost:5000/campaignsList`)
+        axios.get(`https://still-woodland-42739.herokuapp.com/campaignsList`)
         .then(res => {
             const data = res.data;
             console.log(data)
@@ -94,7 +94,7 @@ class ChooseCampaign extends React.Component {
 
     getProductsList = () => {
         console.log('getData')
-        axios.get(`http://localhost:5000/productsList`)
+        axios.get(`https://still-woodland-42739.herokuapp.com/productsList`)
         .then(res => {
             const data = res.data;
             console.log(data)
