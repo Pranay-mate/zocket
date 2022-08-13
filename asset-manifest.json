@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/zocket/static/css/main.bd5e57b3.css",
+    "main.js": "/zocket/static/js/main.f3fbfb15.js",
+    "static/js/787.b65a7e1d.chunk.js": "/zocket/static/js/787.b65a7e1d.chunk.js",
+    "static/media/logo.svg": "/zocket/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/zocket/index.html",
+    "main.bd5e57b3.css.map": "/zocket/static/css/main.bd5e57b3.css.map",
+    "main.f3fbfb15.js.map": "/zocket/static/js/main.f3fbfb15.js.map",
+    "787.b65a7e1d.chunk.js.map": "/zocket/static/js/787.b65a7e1d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd5e57b3.css",
+    "static/js/main.f3fbfb15.js"
+  ]
+}
